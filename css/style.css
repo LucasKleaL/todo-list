@@ -9,15 +9,15 @@ body{
 /* container */
 .container{
     padding:10px;
-    width:380px;
+    width:480px;
     margin:0 auto;
 }
 
 /* header */
 .header{
-    width: 380px;
-    height:200px;
-    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    width: 480px;
+    height: 200px;
+    background-image: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);
     background-size: 100% 200%;
     background-repeat: no-repeat;
     border-radius: 15px 15px 0 0;
@@ -48,11 +48,31 @@ body{
     font-family: 'Titillium Web', sans-serif;
 }
 
+.botao-social-media{
+    width: 50px;
+    height: 50px;
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border: 0;
+    border-radius: 100%;
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.h1-header{
+    position: relative;
+    bottom: 45px;
+    color: white;
+    font-family: impact, arial;
+    font-size: 65px;
+}
+
+
 /* content */
 .content{
-    width:380px;
-    height: 350px;
-    max-height:350px;
+    width: 480px;
+    height: 400px;
+    max-height:400px;
     background-color: #FFF;
     overflow: auto;
 }
@@ -64,8 +84,8 @@ body{
     margin:0;
 }
 .item{
-    width:380px;
-    height: 45px;
+    width:480px;
+    height: 50px;
     min-height: 45px;
     position: relative;
     border-bottom: 1px solid rgba(0,0,0,0.1);
@@ -113,7 +133,7 @@ body{
 /* add item */
 .add-to-do{
     position: relative;
-    width: 360px;
+    width: 460px;
     height:40px;
     background-color: #FFF;
     padding: 10px;
